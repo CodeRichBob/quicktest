@@ -41,14 +41,16 @@ body {
     width: 20vw;
     height: 7vh;
     border-radius: 7px;
-
-}
-
-.welcome button a {
-
     text-decoration: none;
     color: white;
     font-size: medium;
     font-family: 'Montserrat';
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.welcome button:hover{
+    background-color: rgba(210,80,138,0.969625350140056);
 
 }
+
