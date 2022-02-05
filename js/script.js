@@ -12,8 +12,8 @@ function done() {
     if (q4=="Netscape") {a++}
     if (q5=="Input") {a++}
 
-    var b = a * 20;
+    let b = a * 20;
 
-    document.write("Your Score is" + ' ');
-    document.write(b, "%");
+    document.write(b, '%');
+
 }
