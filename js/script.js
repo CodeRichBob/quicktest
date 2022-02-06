@@ -6,6 +6,9 @@ function done() {
     var q4 = document.test.quiz4.value;
     var q5 = document.test.quiz5.value;
     var feed = document.getElementById('feed');
+    var score = document.getElementById('score');
+    var comment = document.getElementById('comment');
+    var test = document.getElementById('test');
 
 
     if (q1=="ES6") {a++}
@@ -16,8 +19,20 @@ function done() {
 
     let b = a * 20;
 
-    feed.textContent = b ;
+    test.style.display = "none";
+    score.textContent = 'Your Score is:';
+    feed.textContent = b + '%';
     /* alert( 'Your Scrore is' + ' ' + b + '%' + ' ' );
     alert('Refresh page to restart the quiz'); */
+    if (b > 80) {
+        comment.textContent = 'Excellently  Passed';
+
+    }
+    else if (b >= 50) {
+        comment.textContent = 'Fairly Done. You can do better';
+    }
+    else {
+        comment.textContent = 'Poorly done. Retake the test kindly';
+    }
 
 }
