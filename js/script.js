@@ -22,14 +22,13 @@ function done() {
     test.style.display = "none";
     score.textContent = 'Your Score is:';
     feed.textContent = b + '%';
-    /* alert( 'Your Scrore is' + ' ' + b + '%' + ' ' );
-    alert('Refresh page to restart the quiz'); */
+    
     if (b > 80) {
-        comment.textContent = 'Excellently  Passed';
+        comment.textContent = 'Excellently  Passed. Hit me up for a cup of coffee';
 
     }
     else if (b >= 50) {
-        comment.textContent = 'Fairly Done. You can do better';
+        comment.textContent = 'Fairly Done. You can do better. A retest wont hurt';
     }
     else {
         comment.textContent = 'Poorly done. Retake the test kindly';

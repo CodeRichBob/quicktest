@@ -71,14 +71,32 @@ body {
     text-decoration: none;
     border-radius: 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(14, 10, 250);
     align-items: center;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 19px 38px, rgba(0, 0, 0, 0.5) 0px 15px 12px;
 }
+.backbtn a:hover {
+    background-color: rgba(95, 253, 4, 0.97);
+    color: black;
+}
+.backbtn:hover {
+    background-color: rgba(95, 253, 4, 0.97);
+    color: black;
 }
 .backbtn a {
     text-decoration: none;
-    color: black;
+    color: rgb(14, 18, 236);
     align-items: center;
     justify-content: center;
+}
+.footer {
+    text-align: center;
+    
+}
+.footer p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+
 }
