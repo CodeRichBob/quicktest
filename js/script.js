@@ -5,7 +5,7 @@ function done() {
     var q3 = document.test.quiz3.value;
     var q4 = document.test.quiz4.value;
     var q5 = document.test.quiz5.value;
-    let feedback = document.getElementById('feedback');
+    var feed = document.getElementById('feed');
 
 
     if (q1=="ES6") {a++}
@@ -16,7 +16,8 @@ function done() {
 
     let b = a * 20;
 
-    alert( 'Your Scrore is' + ' ' + b + '%' + ' ' );
-    alert('Refresh page to restart the quiz');
+    feed.textContent = b ;
+    /* alert( 'Your Scrore is' + ' ' + b + '%' + ' ' );
+    alert('Refresh page to restart the quiz'); */
 
 }
