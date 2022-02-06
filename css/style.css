@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background: url(../images/pexels-polina-kovaleva-5717478.jpg);
+    opacity: 0.9;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -44,7 +45,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: medium;
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
     cursor: pointer;
     font-weight: bold;
 }

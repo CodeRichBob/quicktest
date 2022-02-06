@@ -44,6 +44,7 @@ body {
 .test1 p {
     padding: 10px;
     margin: 10px;
+    font-family: 'Montserrat';
 }
 #btn input {
     border: none;
