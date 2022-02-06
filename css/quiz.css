@@ -16,7 +16,7 @@ body {
     border-radius: 10vh;
     margin: 20px;
     background-color: hsl(271, 76%, 53%, 0.2);
-    background-image: url(../images/Proud_coder_re_exuy.png);
+    background-image: url(../images/pexels-miguel-á-padriñán-194096.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -61,4 +61,24 @@ body {
 }
 #btn input:hover {
     background-color: rgba(17, 0, 255, 0.97);
+}
+.backbtn {
+    background-color: azure;
+    width: 12vw;
+    height: 7vh;
+    color: black;
+    display: flex;
+    text-decoration: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+}
+.backbtn a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
 }
