@@ -2,7 +2,7 @@
 <img  src="./images/mainpage.png">
 <img  src="./images/questionspage.png">
 <img  src="./images/results.png">
-#####  
+ 
 ### This is an online quiz site with javascript questions.
 
 ## Table of Contents
@@ -11,7 +11,7 @@
 + [Installation](#installation)
 + [Site Link](#sitelink)
 + [Technology Used](#technology-used)
-+ [Licence](#licence)
++ [License](#license)
 + [Author Info](#author-Info)
 
 ## Description
@@ -36,7 +36,7 @@ The landing page is being hosted by Github Pages. The link to the page is:
 * JAVASCRIPT - Used to add functionality to buttons and calculations.
 
 
-## Licence
+## License
 
 MIT License
 
