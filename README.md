@@ -42,7 +42,7 @@ The landing page is being hosted by Github Pages. The link to the page is:
 MIT License
 
 Copyright (c) [2022] [Gamaliel Sirengo]. All Rights Reserved.
-
+{Click to view License} (LICENSE)
 
 
 ## Author Info
