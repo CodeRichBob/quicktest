@@ -3,7 +3,8 @@
 <img  src="./images/questionspage.png">
 <img  src="./images/results.png">
  
-### This is an online quiz site with javascript questions.
+### FIGMA Design link for this project
+https://www.figma.com/file/56ERawE48L9i1Jff1N9ckV/QUICKTEST-WEBSITE-TEMPLATE?node-id=0%3A1
 
 ## Table of Contents
 
